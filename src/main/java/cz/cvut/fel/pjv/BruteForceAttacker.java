@@ -17,7 +17,7 @@ public class BruteForceAttacker extends Thief {
         for (char c : characters) {
             attempt[position] = c;
             if (bruteForce(attempt, characters, position + 1)) {
-                return true; // Если нашли правильный пароль, прекращаем перебор
+                return true;
             }
         }
 
